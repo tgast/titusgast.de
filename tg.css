@@ -1,0 +1,113 @@
+/** Schriften einbinden **/
+
+
+@font-face {
+font-family: 'Waiting for the Sunrise';
+src: url("Waiting_for_the_Sunrise/WaitingfortheSunrise.ttf");
+}
+
+
+/** Normale Styles **/
+
+
+body {
+	background: url('blatt_k.png');
+	background-color: #eee;
+	background-attachment: fixed;
+	margin: auto;
+	color: #333;
+	font-family: 'Waiting for the Sunrise', Futura, Arial, sans-serif;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	width: 80%;
+	}
+
+div#header {
+	height: 120px;
+	padding: 10px;
+	}
+
+span.htext {
+	text-align: right;
+	float: right;
+	font-size: 1.6em;
+	color: #f06;
+	}
+
+div#content {
+	margin-top: 20px;
+	min-height: 250px;
+	}
+
+div#footer {
+	margin-top: 50px;
+	text-align: center;
+	padding: 10px;
+	}
+
+div.content {
+	background: #fdfdfd;
+	/* url('paper50.jpg');*/
+	float: left;
+	border: 2px solid #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	}
+
+.contentbox1 {
+	clear: both;
+	}
+
+.contentbox2 {
+	clear: both;
+	}
+
+div.buttonline {
+	clear: both;
+	text-align: right;
+	}
+
+
+h1, h2, h3, h4 {
+	font-family: 'Waiting for the Sunrise', Futura, Arial, sans-serif;
+	color: #f06;
+	}
+
+h1 {
+	font-size: 2.4em;
+	}
+
+h2 {
+	font-size: 2.0em;
+	}
+
+a {
+	color: #f06;
+	}
+
+img {
+	margin: 5px;
+	}
+
+.header {
+	text-align: right;
+	float: right;
+	border: none;
+	}
+
+.left {
+	float: left;
+	}
+
+.right {
+	float: right;
+	}
+
+.buttons {
+	margin: 5px;
+	}
+
+code {
+	font-size: 0.8em;
+}

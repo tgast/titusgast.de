@@ -1,0 +1,3 @@
+User-agent: *
+
+Disallow: /Waiting_for_the_Sunrise/
